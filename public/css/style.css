@@ -1,0 +1,248 @@
+/*polices d'écriture*/
+
+@font-face {
+    font-family: '20_dbregular';
+    src: url('fonts/20db-webfont.eot');
+    src: url('fonts/20db-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/20db-webfont.woff') format('woff'),
+         url('fonts/20db-webfont.ttf') format('truetype'),
+         url('fonts/20db-webfont.svg#20_dbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*styles généraux*/
+html
+{
+    padding: 0px;
+}
+
+body
+{
+    margin: 0px;
+    background-color: #c3c3c3;
+}
+
+h1, h2, h3
+{
+    text-align:center;
+}
+
+h1
+{
+    font-family: '20_dbregular', arial, serif;
+}
+
+h2, h3
+{
+    background-color: #fff;    
+    margin-top: 0px;
+    width: 87%;    
+    padding-top: 10px;
+    padding-bottom: 7px;
+    margin-right: auto;
+    margin-left: auto;    
+    box-shadow: 0px 5px 10px -2px rgba(0, 0, 0, 0.3) inset;
+}
+
+h2
+{
+    font-family: '20_dbregular', arial, serif;
+    font-size: 1.2em;
+    margin-bottom: 0px;
+}
+
+h3
+{
+    font-family: arial, serif;
+    color: #000;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    border-radius: 0 0 20px 20px;
+}
+
+/*header*/
+
+header
+{
+    background-color: #fff;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0 0 20px 20px;
+}
+
+/*contenu*/
+#topOfThePage 
+{
+    text-align: center;
+    font-family: arial;
+    margin-top: 50px;
+}
+
+hr
+{
+    border: 0.5px solid #b9b9b9;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+em 
+{
+    text-decoration: none;
+    font-style: normal;
+    color: red;
+    font-size: 0.9em;
+    font-family: arial, serif;
+    padding-top: 30px;
+}
+
+h3 em
+{
+    font-size: 0.8em;
+}
+
+em a
+{
+    text-decoration: none;
+    color: red;
+}
+
+/*page listPostView*/
+.news p
+{
+    background-color: #e4e4e4;
+    margin-top: 0px;
+    width: 85%;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.news
+{
+    width: 80%;
+    margin: auto;
+}
+
+/*page PostView*/
+
+.comments
+{
+    width: 80%;
+    margin: auto;
+    padding: 0px;
+}
+
+.commentsList
+{
+    background-color: #fff;
+    margin-top: 0px;
+    border-radius: 0 0 20px 20px;
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0px -3px 10px -2px rgba(0, 0, 0, 0.3) inset;
+}
+
+.commentsList p
+{
+    padding-left: 15px;   
+}
+
+.author
+{
+    font-family: arial, serif;
+    font-size: 0.9em;
+}
+
+.author strong
+{
+    color: red;
+    font-size: 1.1em;
+}
+
+/*formulaire*/
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%
+}
+
+input, textarea, button
+{
+    border: 0px solid black;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+label
+{
+    font-family: arial, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#author
+{
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+textarea
+{
+    padding: 10px;
+    height: 100px;
+    width: 50%;
+}
+
+#submit 
+{
+    width: 20%;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #e4e4e4;
+    color: #000;
+}
+
+#submit:hover
+{
+    background-color: #666;
+    color: #fff;
+}
+
+/*modification de comm*/
+
+.buttonEdit, .cancel
+{
+    width: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #e4e4e4; 
+}
+
+.buttonEdit
+{
+    color: #000;
+}
+
+.cancel
+{
+    color: #888;
+    margin-right: 10px;
+}
